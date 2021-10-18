@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Book-shop</title>
+  </head>
+  <body onload="onInit()">
+    <h1>Welcome to my book store</h1>
+    <p>Add Book <button type="button" onclick="onAddBook()">+</button></p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Title</th>
+          <th>Price</th>
+          <th colspan="3">Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="modal" hidden>
+      <button class="close" onclick="onCloseModal()">Close</button>
+      <h4></h4>
+      <h5>Price: <span></span></h5>
+      <img />
+      <p></p>
+      <h5 class="rate">Rate the Book</h5>
+      <span class="rating"></span>
+    </div>
+
+    <script src="js/services/util.service.js"></script>
+    <script src="js/services/storage.service.js"></script>
+    <script src="js/services/book-shop.service.js"></script>
+    <script src="js/book-shop.controller.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+

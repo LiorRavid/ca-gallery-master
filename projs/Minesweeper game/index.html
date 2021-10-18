@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Minesweeper</title>
+</head>
+<body oncontextmenu="return false" onload="init()">
+        <img src="img/minesweeper.jpg"/>
+        <div class="buttons">
+            <button onclick="chooseLevel(this)" class="btn Beginner"><h4>Beginner</h4></button>
+            <button onclick="chooseLevel(this)" class="btn Medium"><h4>Medium</h4></button>
+            <button onclick="chooseLevel(this)" class="btn Expert"><h4>Expert</h4></button>
+        </div>
+        <div class="gameData">
+            <div class="timer">
+                <h3>TIME <span>0</span></h3>
+            </div>
+            <button class="smiley" onclick="restartGame()"><span>😃</span></button> 
+            <div class="LIVES">
+                <h3>LIVES <span>2</span></h3>
+            </div>
+        </div> 
+        <table border="4">
+            <tbody class="board">
+    
+            </tbody>
+        </table>
+    <div class="Bonus">
+        <button class="sevenBoom" onclick="sevenBoomMines()"><h4>7 BOOM</h4></button>
+        <div class="safeClick" onclick="safeClick()"><h4>Safe Click</h4></div>
+       <div class="clicksAvailable"><h4><span>3 </span>clicks avialable</h4></div>
+    </div>  
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

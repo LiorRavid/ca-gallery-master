@@ -1,0 +1,59 @@
+.box{
+    width: 700px;
+    height: 700px;
+    border: 5px solid black;
+    border-radius: 10%;
+    border-width: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    position: absolute; 
+    margin-left: 20px ; 
+}
+
+.questImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    position: absolute; 
+    margin-left: 300px ; 
+    margin-top: 50px;
+}
+
+.button{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(172, 190, 5);
+    border-radius: 5px;
+    position: absolute;
+    margin-left:150px ;
+    bottom: 140px;
+}
+
+.button1{
+    margin-bottom: 0px;
+}
+
+.button2{
+    margin-bottom: 100px;
+}
+
+.button3{
+    margin-bottom: 200px;
+}
+
+.restart{
+    width: 50px;
+    position: absolute;
+    bottom: 50px;
+    display:none;
+    left:50%;
+    transform: translateX(-50%);
+}
+

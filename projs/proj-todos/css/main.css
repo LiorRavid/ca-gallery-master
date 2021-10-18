@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.filters{
+    display: inline-flex;
+    width: 100vh;
+}
+
+.todo-filter {
+    background-color: lightskyblue;
+    padding: 5px;
+    width: 10%;
+}
+
+.todo-sort{
+    background-color: lightskyblue;
+    padding: 5px;
+    width: 10%;
+}
+
+.add-todo {
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+.todo-stat {
+    background-color: lightslategray;
+    padding: 5px;
+    margin: 10px;
+}
+
+.todo-stat span {
+    color: lightskyblue
+}

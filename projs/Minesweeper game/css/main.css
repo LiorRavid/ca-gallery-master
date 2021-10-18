@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(211, 211, 211, 0.897);
+    font-family:monospace;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.buttons{
+    display: block;
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.btn{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;
+    margin: 5px;
+    font-family:monospace; 
+}
+
+table{
+    position:relative;
+    top: 40px;
+    margin: auto;
+    border-style:outset;
+    border-color:gray;   
+}
+
+.board td {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.gameData{
+    max-width:fit-content; 
+    margin: auto;
+}
+
+.timer{
+    position: absolute;
+    margin-left: -50px ;
+    display: inline-block;  
+}
+
+.LIVES{
+    position:relative;
+    left:60px;
+    display: inline-block;
+}
+
+.LIVES span{
+    border-style:outset;
+    border-radius: 10%;
+    padding: 4px;
+    color:red;
+}
+
+.smiley{
+    position: relative;
+    left:42px;
+    width: 45px;
+    height: 25px;
+    top: 2px; 
+    display: inline-block; 
+}
+
+.Bonus{
+    display: flex;
+    position:absolute;
+    margin-top: 10px;
+    left:45%;
+    top:720px;
+    align-items: center;
+}
+
+.sevenBoom{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 15%;
+    border-style:dotted;
+    border-color: black;
+    margin: 5px;
+    font-family:monospace;
+}
+
+.safeClick{
+    left: 40%;
+    margin-top:-10px;
+    width: 65px;
+    height:65px;
+    border-style:outset;
+    border-color: white;
+    border-radius: 100%;
+    background-color: rgb(35, 85, 223);
+}
+
+.safeClick h4{
+    color: ivory;
+    text-align: center;
+}
+
+.clicksAvailable{
+    position:relative;
+    display: inline-block;
+    width: 200px;
+    height:65px;
+    top: 50px;
+    left: -27%;
+}
+.clicksAvailable span{
+    padding: 5px;
+}
+
+.noClick{
+    pointer-events:none;
+}
+
+.hide{
+    background-color: gray;
+}
+
+.markCell{
+    background-color:coral ;
+}
+
+
+
+
+
+
